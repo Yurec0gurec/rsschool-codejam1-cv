@@ -1,4 +1,119 @@
 body {
     margin: 0;
 	padding: 0;
+    background: url('img/brick-wall.jpg') repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.navigation {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(233, 157, 129, 0.8);
+    
+}
+nav.foots  {
+	float: right;
+	margin-top: 20px;
+	margin-right: 300px;
+}
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.menu li {
+	display: block;
+	float: left;
+	padding-left: 20px;
+	margin-right: 25px;
+}
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+    font-weight: bold;
+	color: #212128;
+	font-size: 25px;
+}
+.menu li a:hover {
+	font-size: 29px;
+	transition: 0.5s ease-in-out;
+	box-shadow: 0px 0px 2.5em #680707;
+}
+
+section {
+    margin: 0 auto;
+    width: 1024px;
+    background-color: rgb(215, 224, 219, 0.9);
+    border-bottom: 1px solid #19171A;
+    
+}
+.basic {
+    height: 650px;
+}
+.photo {
+	width: 300px;
+	height: 250px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+	border-radius: 50%;
+	box-shadow: 0 0 7px #666;
+}
+.contacts {
+    padding: 20px;
+    border: 2px solid #19171A;
+    display: inline-block;
+    background-color: rgb(175, 109, 92, 0.7);
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 200px;
+    top: -15px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.contacts p {
+    font-weight: bold;
+    color: #19171A;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+.contacts a {
+    color: #19171A;
+}
+.contacts a:hover {
+    color: aliceblue;
+}
+.summary {
+    height: 300px;
+    padding: 20px;
+}
+.summary p {
+    text-align: left;
+    font-size: 19px;
+}
+.summary h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.skills {
+    height: 400px;
+}
+.skills h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
